@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/grid-style.css">
+    <script src="code.js"></script>
+    <title>Pokémaculate Grid</title>
+</head>
+<body>
+    <div id="invisble">
+        <form method="post" action="" id="db">
+            <input type="hidden" id="raw" name="raw" value="-" />
+            <input type="hidden" id="final" name="final" value="-" />
+            <input type="hidden" id="grid" name="grid" value="-" />
+            <input type="hidden" id="pokemon" name="pokemon" value="-" />
+        </form>
+    </div>
+    <h1>Pokémaculate Grid</h1>
+    <div id="container">
+        <div id="timer">00:00:00</div>
+        <div class="topLabel" id="label1"></div>
+        <div class="topLabel" id="label2"></div>
+        <div class="topLabel" id="label3"></div>
+        <div class="leftLabel" id="label4"></div>
+        <div class="space" id="space1" onclick="guess(1)"></div>
+        <div class="space" id="space2" onclick="guess(2)"></div>
+        <div class="space" id="space3" onclick="guess(3)"></div>
+        <div class="leftLabel" id="label5"></div>
+        <div class="space" id="space4" onclick="guess(4)"></div>
+        <div class="space" id="space5" onclick="guess(5)"></div>
+        <div class="space" id="space6" onclick="guess(6)"></div>
+        <div class="leftLabel" id="label6"></div>
+        <div class="space" id="space7" onclick="guess(7)"></div>
+        <div class="space" id="space8" onclick="guess(8)"></div>
+        <div class="space" id="space9" onclick="guess(9)"></div>
+    </div>
+    <div id="notes">
+        Notes:
+        <ul>
+            <li>When entering two word pokemon, use - instead of a space </li>
+            <ul><li>Example: "Great-Tusk"</li></ul>
+            <li>When entering subtype pokemon such as Megas or Alolan's use it after the main name
+            <ul><li>Example: "Lucario-Mega", "Raichu-Alola"</li></ul></li>
+        </ul>
+    </div>
+</body>
+</html>

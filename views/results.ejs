@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/start-style.css">
+    <title>Pokémaculate Grid</title>
+</head>
+<body>
+    <div id="results">
+        <h1>Pokémaculate Grid</h1>
+        <h2>Results</h2>
+        <strong>Name:</strong> <%- name %><br>
+        <strong>Raw Time:</strong> <%- rawTime %><br>
+        <strong>Final Time:</strong> <%- finalTime %><br>
+        <strong>Types:</strong> <%- grid %><br>
+        <strong>Pokemon Guessed Correctly: </strong><%- pokemon %><br>
+        <strong>Date:</strong> <%- date %>
+    </div>
+    <br>
+    <div id="leaderboard">
+        <table border="1">
+            <caption>Today's Top Times</caption>
+            <tr><th>Name</th><th>Time</th></tr>
+            <%- table %>
+        </table>
+    </div>
+</body>
+</html>

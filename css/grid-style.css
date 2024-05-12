@@ -1,0 +1,61 @@
+html {
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    background-color: lightcoral;
+}
+
+h1 {
+    display: absolute;
+    padding-left: 35%;
+    color: yellow;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(2, 71, 114);
+}
+
+#container {
+    display: grid;
+    grid-template-rows: 40px 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px 150px;
+    padding-left: 25%;
+}
+
+.space {
+    border: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.space:hover {
+    background-color: rgb(164, 164, 164);
+}
+.space:active {
+    background-color: rgb(221, 221, 221);
+}
+.space img {
+    height: 100%;
+    width: 100%;
+}
+
+.topLabel {
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.leftLabel {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 10px;
+}
+
+#notes {
+    font-size: .75rem;
+}
+
+#invisble {
+    display: absolute;
+    visibility: hidden;
+}

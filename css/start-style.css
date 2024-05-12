@@ -1,0 +1,42 @@
+html {
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    background-color: lightcoral;
+}
+
+#start {
+    text-align: center;
+}
+
+form {
+    font-size: 1.5rem;
+}
+
+#name {
+    height: 1.5rem;
+    width: 8rem;
+    font-size: 1.25rem;
+}
+
+.submit {
+    height: 1.5rem;
+    width: 4rem;
+    font-size: .75rem;
+}
+
+h1 {
+    color: yellow;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(2, 71, 114);
+}
+
+#results {
+    text-align: center;
+}
+
+#leaderboard {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -111,7 +111,7 @@ async function getTimes(client) {
     const result = await client.db(leaderboard.db)
                         .collection(leaderboard.collection)
                         .find(filter)
-                        .sort({"rawTime": -1})
+                        .sort({"rawTime": 1})
                         .toArray();
     let table = "";
     result.forEach(player => {

@@ -1,11 +1,6 @@
-Submitted by: Gregory Dellamura (ID: gdellamu)
+# Description
+A Game where users guess pokemon that correlate to corresponding type combos similar to the popular game Immaculate Grid. 
+Stores a leaderboard sorted by Time to Complete using MongoDB
 
-Group Members: Gregory Dellamura (ID: gdellamu)
-
-App Description: A Game where users guess pokemon that correlate to corresponding type combos. Stores a leaderboard sorted by Time to Complete
-
-YouTube Video Link: https://youtu.be/65tW1Q64cMo
-
-API: PokeAPI (https://pokeapi.co/)
-
-Contact Email: gdellamu@terpmail.umd.edu
+## Playing Example
+https://youtu.be/65tW1Q64cMo
